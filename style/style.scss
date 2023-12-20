@@ -1,0 +1,17 @@
+.conteiner {
+  width: 592px;
+  // position: relative;
+  height: 460px;
+  background-color: grey;
+  margin-top: 10%;
+
+  .small_conteiner {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 20.8%;
+    left: 8px;
+    transition: 2s;
+  }
+}
