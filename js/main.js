@@ -3,7 +3,7 @@ var small_conteiner = document.querySelector(".small_conteiner");
 
 document.addEventListener("keydown", function (event) {
     if (event.key === "ArrowRight") {
-        small_conteiner.style.left = "20.8%";
+        small_conteiner.style.left = "500.8px";
     }
 
     if (event.key === "ArrowLeft") {
@@ -11,10 +11,10 @@ document.addEventListener("keydown", function (event) {
     }
 
     if (event.key === "ArrowDown") {
-        small_conteiner.style.top =  "52%";
+        small_conteiner.style.top =  "600px";
     }
     if (event.key === "ArrowUp") {
-        small_conteiner.style.top =  "20.8%";
+        small_conteiner.style.top =  "240px";
     }
 
     if (event.key === "Escape") {
