@@ -3,7 +3,7 @@ var small_conteiner = document.querySelector(".small_conteiner");
 
 document.addEventListener("keydown", function (event) {
     if (event.key === "ArrowRight") {
-        small_conteiner.style.left = "23.4%";
+        small_conteiner.style.left = "20.8%";
     }
 
     if (event.key === "ArrowLeft") {
@@ -11,7 +11,7 @@ document.addEventListener("keydown", function (event) {
     }
 
     if (event.key === "ArrowDown") {
-        small_conteiner.style.top =  "56%";
+        small_conteiner.style.top =  "52%";
     }
     if (event.key === "ArrowUp") {
         small_conteiner.style.top =  "20.8%";
