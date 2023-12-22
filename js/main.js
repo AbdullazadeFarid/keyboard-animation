@@ -11,10 +11,10 @@ document.addEventListener("keydown", function (event) {
     }
 
     if (event.key === "ArrowDown") {
-        small_conteiner.style.top =  "600px";
+        small_conteiner.style.top =  "550px";
     }
     if (event.key === "ArrowUp") {
-        small_conteiner.style.top =  "240px";
+        small_conteiner.style.top =  "190px";
     }
 
     if (event.key === "Escape") {
